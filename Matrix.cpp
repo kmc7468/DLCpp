@@ -109,6 +109,9 @@ Matrix& Matrix::operator*=(double value) noexcept {
 
 	return *this;
 }
+Matrix& Matrix::operator*=(const Matrix& matrix) {
+	return *this = (*this) * matrix;
+}
 
 void Matrix::Clear() noexcept {
 	m_Data.clear();
@@ -131,7 +134,7 @@ std::size_t Matrix::GetColumn() const noexcept {
 	return m_Column;
 }
 
-void Matrix::Transpose() noexcept {
+void Matrix::Transpose() {
 	Matrix temp(m_Column, m_Row);
 	for (std::size_t i = 0; i < m_Row; ++i) {
 		for (std::size_t j = 0; j < m_Column; ++j) {

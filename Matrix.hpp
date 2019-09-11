@@ -36,6 +36,7 @@ public:
 	Matrix& operator+=(const Matrix& matrix) noexcept;
 	Matrix& operator-=(const Matrix& matrix) noexcept;
 	Matrix& operator*=(double value) noexcept;
+	Matrix& operator*=(const Matrix& matrix);
 
 public:
 	void Clear() noexcept;
@@ -44,7 +45,7 @@ public:
 	std::size_t GetRow() const noexcept;
 	std::size_t GetColumn() const noexcept;
 
-	void Transpose() noexcept;
+	void Transpose();
 	void HadamardProduct(const Matrix& matrix) noexcept;
 };
 
