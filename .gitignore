@@ -1,0 +1,10 @@
+.vs/
+bin/
+[Tt]est*/
+[Tt]est*
+[Tt]est*.*
+*.sln
+*.vcxproj
+*.filters
+*.user
+[Cc][Pp][Pp].[Hh][Ii][Nn][Tt]
