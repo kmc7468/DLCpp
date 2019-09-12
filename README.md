@@ -1,5 +1,8 @@
 # 딥러닝 with C++
-[딥러닝 with C++ 1편](https://blog.naver.com/kmc7468/221645909592)의 소스 코드입니다.
+[딥러닝 with C++ 2편](https://blog.naver.com/kmc7468/221646477758)의 소스 코드입니다.
+
+## 이전 소스 코드
+- [딥러닝 with C++ 1편](https://github.com/kmc7468/DLCpp/tree/8e76bac4894c340b72d8496dadc0bc062628185c)
 
 ## 라이선스
 이 소스 코드는 MIT 라이선스에 의해 보호받습니다. 사용 시 출처를 남겨주세요.
